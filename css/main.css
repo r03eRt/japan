@@ -1,0 +1,28 @@
+html,body{
+	margin:0px;
+}
+
+#left_div {
+	display: inline-block;
+    position: absolute;
+    width: 50vw;
+    height: 100vh;
+    left:-50%;
+    background: red;
+}
+
+#right_div {
+	display: inline-block;
+    position: absolute;
+    width: 50vw;
+    height: 100vh;
+    right:-50%;
+    background: blue;
+}
+
+#container{
+	margin:0px;
+	display: inline-block;
+	background: green;
+
+}
